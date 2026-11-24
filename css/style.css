@@ -387,9 +387,12 @@
   
   /* Optional date number styling */
   
-  .dateDay {
-    font: 100px / 0.85 var(--serif);
-    color: var(--cream);
+  .dateDay{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: 1;
   }
   
   .dateMonth {
@@ -1106,8 +1109,11 @@
   /* Function date */
   
   .functionDate {
-    font: clamp(70px, 8vw, 100px) / 0.8 var(--serif);
-    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: 1;
   }
   
   .functionMonth {
